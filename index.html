@@ -1,0 +1,1137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta charset="UTF-8">
+    <meta name="author" content="jarol Gabriel Vivas">
+    <meta name="description" content="Portafolio de desarrollo web en bootstrap">
+    <meta name="keywords" content="HTML, CSS, javaScript, React, bootstrap">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!--bootstrap icon-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <!--titulo-->
+    <title>DEV Community</title>
+    <!--favicon-->
+    <link rel="shortcut icon" href="./img/resized_logo.png" type="image/x-icon">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap" rel="stylesheet">
+    <!-- Estilos -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md  ">
+        <div class="container-fluid  d-flex justify-content-around ">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div>
+
+                <div class="collapse navbar-collapse d-flex justify-content-around " id="navbarTogglerDemo01"></div>
+                <a class="navbar-brand" href="#"><img class="navar-logo" src="./img/resized_logo.png" alt=""></a>
+
+                <label for="" class="navbar-btn-search">
+
+                    <button type="button"
+                        class="btn btn-outline-secondary d-flex justify-content-between ms-auto align-items-center"><i
+                            class="bi fw-bold bi-search ms-auto">
+                            <span>Search...</span></i>
+                        <span class="mr-svg">Powered by</span>
+                        <?xml version="1.0" encoding="UTF-8"?><svg class="cls-1" id="Layer_1"
+                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500.34">
+                            <path class="cls-1"
+                                d="M250,0C113.38,0,2,110.16,.03,246.32c-2,138.29,110.19,252.87,248.49,253.67,42.71,.25,83.85-10.2,120.38-30.05,3.56-1.93,4.11-6.83,1.08-9.52l-23.39-20.74c-4.75-4.22-11.52-5.41-17.37-2.92-25.5,10.85-53.21,16.39-81.76,16.04-111.75-1.37-202.04-94.35-200.26-206.1,1.76-110.33,92.06-199.55,202.8-199.55h202.83V407.68l-115.08-102.25c-3.72-3.31-9.43-2.66-12.43,1.31-18.47,24.46-48.56,39.67-81.98,37.36-46.36-3.2-83.92-40.52-87.4-86.86-4.15-55.28,39.65-101.58,94.07-101.58,49.21,0,89.74,37.88,93.97,86.01,.38,4.28,2.31,8.28,5.53,11.13l29.97,26.57c3.4,3.01,8.8,1.17,9.63-3.3,2.16-11.55,2.92-23.6,2.07-35.95-4.83-70.39-61.84-127.01-132.26-131.35-80.73-4.98-148.23,58.18-150.37,137.35-2.09,77.15,61.12,143.66,138.28,145.36,32.21,.71,62.07-9.42,86.2-26.97l150.36,133.29c6.45,5.71,16.62,1.14,16.62-7.48V9.49C500,4.25,495.75,0,490.51,0H250Z" />
+                        </svg> <span class="mr-svg-A">Algolia</span>
+                    </button>
+                </label>
+            </div>
+            <div>
+                <form class="d-flex justify-content-end" role="search">
+                    <button type="button" class="btn btn-link">log in</button>
+                    <button class="btn btn-outline-success" type="submit">crea accoun</button>
+
+                </form>
+            </div>
+        </div>
+        </div>
+    </nav>
+
+    <!-- hero -->
+    <div class="container">
+        <div class="row d-flex flex-row justify-content-center ">
+            <div class="col-md-2  d-none d-md-block">
+                <div class="card card-hero-1 p-1 w-100">
+
+                    <div class=" card-body">
+                        <h5 class="card-title card-title-1">DEV Community es una comunidad de 1.511.698 desarrolladores
+                            increíbles
+                        </h5>
+                        <p class="card-text card-text-1">Somos un lugar donde los programadores comparten, se mantienen
+                            actualizados y
+                            hacen crecer sus carreras.</p>
+                        <a href="#" class="btn btn-primary w-100">Crear cuenta</a>
+                        <button type="button" class="btn btn-link w-100">log in</button>
+
+                    </div>
+                </div>
+                <div>
+                    <div class="card border-0">
+
+                        <div class=" card-body ">
+                            <button type="button" class="btn btn-link w-100 mt-0 d-flex">
+                                <p class="mb-0">🏠</p> Hogar
+                            </button>
+                            <button type="button" class="btn btn-link w-100 d-flex">
+                                <p class="mb-0">🗃️</p>Leyendo listas
+                            </button>
+                            <button type="button" class="btn btn-link w-100 d-flex">
+                                <p class="mb-0">🎙️</p>Podcasts
+                            </button>
+                            <button type="button" class="btn btn-link w-100 d-flex">
+                                <p class="mb-0">📽️</p>Videos
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <div class=" d-flex text-center gap-3">
+                    <p class="hero-hover-palabras hover-palabra-active">importante</p>
+                    <p class="hero-hover-palabras">El ultimo</p>
+                    <p class="hero-hover-palabras">Arriba</p>
+
+                </div>
+                <div class="card mb-3">
+                    <img src="./img/kubernete.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <div class="hero-card-superposicionar">
+                            <div class="card-body d-flex justify-content-start align-items-center ">
+                                <img class="hero-image-badge" src="./img/perfil/cuadro-com_uploads_organizat.png"
+                                    alt="">
+                                <h5 class="card-title">Jake Page <span>for</span> Glasskube</h5>
+                            </div>
+                            <div class="card-body car-body-perfil d-flex justify-content-start align-items-center ">
+                                <img class="hero-imagen-perfil " src="./img/perfil/pexels-adreyat-1.jpg" alt="">
+                                <h5 class="card-title">May 27</h5>
+                            </div>
+
+                        </div>
+
+                        <p class="card-text">
+                            Kubernetes fail compilation: but they keep getting worse
+                        </p>
+
+                        <div class="hero-hastah">
+                            <button type="button" class="btn btn-custom"><span class="azul">#</span>Kubernete</button>
+                            <button type="button" class="btn btn-custom"><span class="verde">#</span> devops</button>
+                            <button type="button" class="btn btn-custom"><span class="verde">#</span>opensource</button>
+                            <button type="button" class="btn btn-custom"><span class="rosado">#</span>learning</button>
+                        </div>
+
+                        <div class="hero-caras-animaciones d-flex justify-content-center align-items-center ">
+                            <button type="button" class="btn btn-secondary btn-lg ">
+                                <div class="d-flex justify-content-center align-items-center">
+                                    <p class="hero-emogi mb-0">&#129505;</p>
+                                    <p class="hero-emogi-2 mb-0">😍</p>
+                                    <p class="hero-emogi-2 mb-0"> &#128588;</p>
+                                    <p class="hero-emogi-2 mb-0">👽</p>
+                                    <p class="hero-emogi-2 mb-0 hero-espacio-left">🦄</p>37
+                                    reacciones
+                                </div>
+                            </button>
+                            <button type="button" class="btn btn-secondary btn-lg d-flex">
+                                <i class="bi bi-chat"></i>add comentarios</button>
+                            <div class="hero-minute d-flex justify-content-center ms-auto">
+
+                                <p class="hero-11">11 min read</p>
+                                <i class="icon-book bi bi-bookmark"></i>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 d-none d-md-block">
+                <ul class="list-group">
+                    <li class="list-group-item disabled" aria-disabled="true">
+                        <p class="list-gruop-hover fw-bold fs-5 ">#conversar</p>
+                        <p class="fs-12 mb-0">Hilos de discucion dirigidos a toda la comunidad</p>
+                    </li>
+
+                    <li class="list-group-item"><span class="list-gruop-hover fs-6">meme lunes</span>
+                        <p class="fs-12 mb-0">40 comentarios</p>
+                    </li>
+                    <li class="list-group-item"><span class="list-gruop-hover fs-6">Cual es la mejor manera de aprender
+                            a pensar como
+                            programador?</span>
+                        <p class="fs-12 mb-0">2 comentarios</p>
+                    </li>
+                    <li class="list-group-item ">
+                        <div class="row d-flex justify-content-center flex-column ">
+                            <span class="list-gruop-hover fs-6">codigo amigable para los humanos</span>
+                            <div class="col-md-4">
+                                <button type="button" class="btn btn-warning btn-extra-sm mt-2">Nuevo</button>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item ">
+                        <div class="row d-flex justify-content-center flex-column ">
+                            <span class="list-gruop-hover fs-6">Reconocimiento Facial para Seguridad y
+                                Videovigilancia</span>
+                            <div class="col-md-4">
+                                <button type="button" class="btn btn-warning btn-extra-sm mt-2">Nuevo</button>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item ">
+                        <div class="row d-flex justify-content-center flex-column ">
+                            <span class="list-gruop-hover fs-6">Que es el desarrollo de aplicaciones java para
+                                empresas?</span>
+                            <div class="col-md-4">
+                                <button type="button" class="btn btn-warning btn-extra-sm mt-2">Nuevo</button>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item ">
+                        <div class="row d-flex justify-content-center flex-column ">
+                            <span class="list-gruop-hover fs-6">Aprende en <span class="fw-bold">Kodemia</span></span>
+                            <div class="col-md-4">
+                                <button type="button" class="btn btn-warning btn-extra-sm mt-2">Nuevo</button>
+                            </div>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+            <div>
+
+            </div>
+            <div>
+
+            </div>
+        </div>
+
+        <!-- Seccion 2 segunada parte del Hero -->
+
+        <div class="container">
+            <div class="row  ">
+                <div class="col-lg-2">
+                    <div class="card border-0 seccion-oculta-para-movil">
+
+                        <div class=" card-body ">
+                            <button type="button" class="btn btn-link w-100 mt-0 d-flex">
+                                <p class="mb-0">💡</p> Ayuda
+                            </button>
+                            <button type="button" class="btn btn-link w-100 mt-0 d-flex">
+                                <p class="mb-0">🛍️</p> Tienda Forem
+                            </button>
+                            <button type="button" class="btn btn-link w-100 d-flex">
+                                <p class="mb-0">💖</p>Anunciate DEV
+                            </button>
+                            <button type="button" class="btn btn-link w-100 d-flex">
+                                <p class="mb-0">🏆</p>Desarrollo
+                            </button>
+                            <button type="button" class="btn btn-link w-100 d-flex">
+                                <p class="mb-0">✨</p>Exibicion
+                            </button>
+                            <button type="button" class="btn btn-link w-100 mt-0 d-flex">
+                                <img class="card-logo-her0-2 me-2" src="./img/resized_logo.png" alt=""> Acerca de
+                            </button>
+                            <button type="button" class="btn btn-link w-100 d-flex">
+                                <p class="mb-0">🌏</p>contacto
+                            </button>
+                            <button type="button" class="btn btn-link w-100 d-flex">
+                                <p class="mb-0">📖</p>guia
+                            </button>
+                            <button type="button" class="btn btn-link w-100 d-flex">
+                                <p class="mb-0">🤑</p>Comparaciones de software
+                            </button>
+                            <h6 class="fw-bold">Otros</h6>
+                            <button type="button" class="btn btn-link w-100 d-flex">
+                                <p class="mb-0">👍</p>Conducta
+                            </button>
+                            <button type="button" class="btn btn-link w-100 d-flex">
+                                <p class="mb-0">🤓</p>Privacidad
+                            </button>
+                            <button type="button" class="btn btn-link w-100 d-flex">
+                                <p class="mb-0">👀</p>Condiciones
+                            </button>
+                            <div class="d-flex align-items-center justify-content-center mt-3">
+                                <i class="bi bi-social-media bi-twitter-x"></i>
+                                <i class="bi bi-social-media bi-facebook"></i>
+                                <i class="bi bi-social-media bi-github"></i>
+                                <i class="bi bi-social-media bi-instagram"></i>
+                                <i class="bi bi-social-media bi-twitch"></i>
+                                <i class="bi bi-social-media bi-mastodon"></i>
+                            </div>
+                            <h6 class="fw-bold mt-3">Etiquetas Populares</h6>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="card mb-3 p-3">
+
+                        <div class="d-flex justify-content-between">
+                            <p class="fw-300-C-D">Comunidad de desarrollo</p>
+                            <i class="bi bi-three-dots"></i>
+                        </div>
+                        <div class="p-4 pt-0 pb-0">
+                            <img src="./img/dev-card-morada.png" class="card-img-top" alt="Imagen morada del DEV">
+                            <div class="card-body text-start">
+                                <p class="card-text fs-6">¿Necesita mantenerse actualizado con las tendencias
+                                    más
+                                    relevantes
+                                    en software, como la generación de inteligencia artificial, la computación en la
+                                    nube y todo lo relacionado con el frontend?</p>
+                                <p>No busque más.</p>
+                                <p>Puedes hacer mucho más una vez que <span class="fw-bold">creas tu cuenta</span> .
+                                    Siga a los desarrolladores y los temas que le interesan y manténgase actualizado.
+                                </p>
+                                <a href="#" class="btn btn-primary w-50">Empezar ahora</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 d-none d-md-block">
+                    <ul class="list-group">
+                        <li class="list-group-item disabled" aria-disabled="true">
+                            <p class="list-gruop-hover fw-bold fs-5 ">#enfriador de agua</p>
+                            <p class="fs-12 mb-0">Conversacion ligera y fuera de tema</p>
+                        </li>
+
+                        <li class="list-group-item"><span class="list-gruop-hover fs-6">meme lunes</span>
+                            <p class="fs-12 mb-0">40 comentarios</p>
+                        </li>
+
+                    </ul>
+                    <ul class="list-group list-group-hero-2 border-0">
+                        <p class="font-inconsolas fw-bold mt-3">guia/recursos de tendencia</p>
+                        <li class="list-group-item lista-group-item-hero-2 border-0 mt-3"><span
+                                class="list-gruop-hover fs-6">Las 50 preguntas
+                                principales
+                                de
+                                la entrevista sobre diseno de sistesmas para 2024</span>
+
+                        </li>
+                        <li class="list-group-item lista-group-item-hero-2 border-0 mt-3"><span
+                                class="list-gruop-hover fs-6">Cinco habilidades que los programadores y desarrolladores
+                                deberian aprender en 2024</span>
+                        </li>
+                        <li class="list-group-item lista-group-item-hero-2 border-0 mt-3"><span
+                                class="list-gruop-hover fs-6">Array.reduce() tiene cabra 🐐✨</span>
+                        </li>
+                        <li class="list-group-item lista-group-item-hero-2 border-0 mt-3"><span
+                                class="list-gruop-hover fs-6">Dominar el diseno de bases de datos relacionales: una guia
+                                completa</span>
+                        </li>
+                        <li class="list-group-item lista-group-item-hero-2 border-0 mt-4"><span
+                                class="list-gruop-hover fs-6">No eres un ingeniero de software; eres un
+                                "frameworker"</span>
+                        </li>
+                        <li class="list-group-item lista-group-item-hero-2 border-0 mt-4 border-bottom"><span
+                                class="list-gruop-hover fs-6">🕸️Tendencia de desarrollo de software en 2024 👀</span>
+                        </li>
+                        <span class=""></span>
+                    </ul>
+                </div>
+
+            </div>
+
+            <!-- tercera seccion de hero -->
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-2">
+
+
+                        <div class="overflow-auto" style="max-height: 400px;" data-bs-spy="scroll">
+
+                            <p class="btn-link rounded">#wedbev</p>
+                            <p class="btn-link rounded">#Javascript</p>
+                            <p class="btn-link rounded">#principiantes</p>
+                            <p class="btn-link rounded">#programacion</p>
+                            <p class="btn-link rounded">tutorial</p>
+                            <p class="btn-link rounded">#reaccionar</p>
+                            <p class="btn-link rounded">#piton</p>
+                            <p class="btn-link rounded">#ai</p>
+                            <p class="btn-link rounded">#producttividad</p>
+                            <p class="btn-link rounded">#devops</p>
+                            <p class="btn-link rounded">#fuente abierta</p>
+                            <p class="btn-link rounded">#aws</p>
+                            <p class="btn-link rounded">#conversar</p>
+                            <p class="btn-link rounded">#mecanografia</p>
+                            <p class="btn-link rounded">#css</p>
+                            <p class="btn-link rounded">#carrera</p>
+                            <p class="btn-link rounded">#nodo</p>
+                            <p class="btn-link rounded">#aprendiendo</p>
+                            <p class="btn-link rounded">#noticias</p>
+                            <p class="btn-link rounded">#aprendiendo automatico</p>
+                            <p class="btn-link rounded">#java</p>
+                            <p class="btn-link rounded">#wedbev</p>
+                            <p class="btn-link rounded">#base de datos</p>
+                            <p class="btn-link rounded">#nube</p>
+                            <p class="btn-link rounded">#desarrollo</p>
+                            <p class="btn-link rounded">#interfas</p>
+                            <p class="btn-link rounded">#ciencia de datos</p>
+                            <p class="btn-link rounded">#prueba</p>
+                            <p class="btn-link rounded">#siguientejs</p>
+                            <p class="btn-link rounded">#github</p>
+                            <p class="btn-link rounded">#php</p>
+
+                        </div>
+                    </div>
+
+                    <div class="col-6 d-none d-md-block">
+                        <div class="card mb-3">
+                            <div class="p-4 pb-0 d-flex justify-content-start align-items-center her-3-foto-name-date">
+                                <img src="./img/perfil/pexels-dimitar-manolov-2.jpg"
+                                    class="hero-3-imagen-perfil card-img-top rounded-circle m-2 "
+                                    alt="chica posandojunto a una piedra">
+                                <div class="hero-3-info-hover d-flex flex-column gap-0">
+                                    <h6 class="hero-3-title-perfil ">Anita Olsen ✨</h6>
+                                    <p class="hero-3-date-perfil">28 de mayo</p>
+                                </div>
+                            </div>
+                            <div class="card-body her-3-foto-name-date">
+                                <p class="card-text">Cual es la mejor manera de aprender a pensar como programador?
+                                </p>
+
+                                <div class="hero-hastah">
+                                    <button type="button" class="btn btn-custom"><span
+                                            class="azul">#</span>conversar</button>
+                                    <button type="button" class="btn btn-custom"><span class="verde">#</span>
+                                        aprendiendo</button>
+                                    <button type="button" class="btn btn-custom"><span
+                                            class="rosado">#</span>programacion</button>
+                                </div>
+                                <div class="hero-caras-animaciones d-flex justify-content-center align-items-center ">
+                                    <button type="button" class="btn btn-secondary btn-lg ">
+                                        <div class="d-flex justify-content-center align-items-center">
+                                            <p class="hero-emogi mb-0">&#129505;</p>1
+                                            reaccion
+                                        </div>
+                                    </button>
+                                    <button type="button" class="btn btn-secondary btn-lg d-flex">
+                                        <i class="bi bi-chat"></i>2 comentarios</button>
+                                    <div class="hero-minute d-flex justify-content-center ms-auto">
+
+                                        <p class="hero-11">1 min read</p>
+                                        <i class="icon-book bi bi-bookmark"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-3">
+                            <div class="hero-card-superposicionar">
+                                <div class="card-body d-flex justify-content-start align-items-center ">
+                                    <img class="hero-image-badge" src="./img/perfil/badge-chohete.avif" alt="">
+                                    <h5 class="card-title hero-3-info-hover">Ssjad Khan <span>para</span>herramientas
+                                    </h5>
+                                </div>
+                                <div class="card-body car-body-perfil d-flex justify-content-start align-items-center ">
+                                    <img class="hero-imagen-perfil " src="./img/perfil/pexels-fernandocortes-3.jpg"
+                                        alt="">
+                                    <h5 class="card-title">28 mayo</h5>
+                                </div>
+
+                            </div>
+                            <div class="card-body her-3-foto-name-date">
+                                <p class="card-text">Cree una herramienta de explicacion de codigo utilizando Tooljet y
+                                    gemini API
+                                </p>
+
+                                <div class="hero-hastah">
+                                    <button type="button" class="btn btn-custom"><span class="azul">#</span>codigo
+                                        bajo</button>
+                                    <button type="button" class="btn btn-custom"><span class="verde">#</span>
+                                        chorro de herramientas</button>
+                                    <button type="button" class="btn btn-custom"><span
+                                            class="rosado">#</span>restapi</button>
+                                    <button type="button" class="btn btn-custom"><span
+                                            class="rosado">#</span>Geminis</button>
+                                </div>
+                                <div class="hero-caras-animaciones d-flex justify-content-center align-items-center ">
+                                    <button type="button" class="btn btn-secondary btn-lg ">
+                                        <div class="d-flex justify-content-center align-items-center">
+                                            <p class="hero-emogi mb-0">&#129505;</p>
+                                            <p class="hero-emogi-2 mb-0">😍</p>
+                                            <p class="hero-emogi-2 mb-0"> &#128588;</p>
+                                            <p class="hero-emogi-2 mb-0">👽</p>
+                                            <p class="hero-emogi-2 mb-0 hero-espacio-left">🦄</p>28
+                                            reacciones
+                                        </div>
+                                    </button>
+                                    <button type="button" class="btn btn-secondary btn-lg d-flex">
+                                        <i class="bi bi-chat"></i>2 comentarios</button>
+                                    <div class="hero-minute d-flex justify-content-center ms-auto">
+
+                                        <p class="hero-11">5 min read</p>
+                                        <i class="icon-book bi bi-bookmark"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-4 d-none d-md-block">
+                        <ul class="list-group list-group-hero-2 border-0">
+                            <li class="list-group-item lista-group-item-hero-2 border-0"><span
+                                    class="list-gruop-hover fs-6">GPT-4o: Aprenda como implementar un RAG en el nuevo
+                                    modelo, paso a paso!</span>
+
+                            </li>
+                            <li class="list-group-item lista-group-item-hero-2 border-0 mt-3"><span
+                                    class="list-gruop-hover fs-6">Por que nadie crece quierendo ser ingeniero
+                                    DevOps</span>
+                            </li>
+                            <li class="list-group-item lista-group-item-hero-2 border-0 mt-3"><span
+                                    class="list-gruop-hover fs-6">Array.reduce() tiene cabra 🐐✨</span>
+                            </li>
+                            <li class="list-group-item lista-group-item-hero-2 border-0 mt-3"><span
+                                    class="list-gruop-hover fs-6">Diferencia entre apache Kafka, RabbitMQ</span>
+                            </li>
+                            <li class="list-group-item lista-group-item-hero-2 border-0 mt-4"><span
+                                    class="list-gruop-hover fs-6">Las 17 mejores herramientas de productivida para
+                                    desarrolladores para probar</span>
+                            </li>
+                            <li class="list-group-item lista-group-item-hero-2 border-0 mt-4"><span
+                                    class="list-gruop-hover fs-6">Mejore su productividad usando mas terminal y menos
+                                    mouse (🚀)</span>
+                            </li>
+                            <li class="list-group-item lista-group-item-hero-2 border-0 mt-4"><span
+                                    class="list-gruop-hover fs-6">Cree una increible cartera de desarrolladores de
+                                    GitHub</span>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                </div>
+
+                <!-- cuarta seccion de hero -->
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-2 d-none d-md-block">
+                            <div class="card p-3 mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <p class="fw-300-C-D">DEV Community</p>
+                                    <i class="bi bi-three-dots"></i>
+                                </div>
+                                <img src="./img/become-a-moderatro.png" class="card-img-top" alt="Become a moderator">
+                                <div class="card-body">
+                                    <p class="card-text-hero-4"><span class="card-text card-text-span-hero-4">Fill
+                                            out this
+                                            survey</span> and
+                                        help us moderate
+                                        our community by becoming a tag moderator here at DEV.</p>
+
+                                </div>
+                            </div>
+                            <div class="card border-0 ">
+
+                                <div class="card-body p-0">
+                                    <p class="card-text-hero-4-card-2"><span class="hero-4-card-2">Comunidad de
+                                            desarrollo</span> Una red social
+                                        constructiva e inclusiva para desarrolladores de software. Contigo en cada paso
+                                        de tu viaje.</p>
+                                    <p class="card-text-hero-4-card-2">Construida sobre<span
+                                            class="hero-4-card-2">Forem</span>- elfuente
+                                        abiertasoftware que potencia<span class="hero-4-card-2">DESARROLLO</span>y otras
+                                        comunidades
+                                        inclusivas.</p>
+                                    <p class="card-text-hero-4-card-2">Hecho con amor y<span class="hero-4-card-2">Ruby
+                                            on
+                                            Rails.</span> Comunidad
+                                        DEV © 2016 - 2024.</p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="card mb-3">
+                                <div
+                                    class="p-4 pb-0 d-flex justify-content-start align-items-center her-3-foto-name-date">
+                                    <img src="./img/perfil/pexels-jeferson-santos-4.jpg"
+                                        class="hero-3-imagen-perfil card-img-top rounded-circle m-2 "
+                                        alt="chica posandojunto a una piedra">
+                                    <div class="hero-3-info-hover d-flex flex-column gap-0">
+                                        <h6 class="hero-3-title-perfil ">Pradumma Saraf</h6>
+                                        <p class="hero-3-date-perfil">28 de mayo</p>
+                                    </div>
+                                </div>
+                                <div class="card-body her-3-foto-name-date">
+                                    <p class="card-text">Como utilizar indicadores de funciones para implementaciones
+                                        por etapas
+                                    </p>
+
+                                    <div class="hero-hastah">
+                                        <button type="button" class="btn btn-custom"><span class="azul">#</span>fuente
+                                            abierta</button>
+                                        <button type="button" class="btn btn-custom"><span class="verde">#</span>
+                                            devops</button>
+                                        <button type="button" class="btn btn-custom"><span
+                                                class="rosado">#</span>desarrollador</button>
+                                        <button type="button" class="btn btn-custom"><span
+                                                class="rosado">#</span>desarrollo</button>
+                                    </div>
+                                    <div
+                                        class="hero-caras-animaciones d-flex justify-content-center align-items-center ">
+                                        <button type="button" class="btn btn-secondary btn-lg ">
+                                            <div class="d-flex justify-content-center align-items-center">
+                                                <p class="hero-emogi mb-0">&#129505;</p>15
+                                                reaccion
+                                            </div>
+                                        </button>
+                                        <button type="button" class="btn btn-secondary btn-lg d-flex">
+                                            <i class="bi bi-chat"></i>add comentarios</button>
+                                        <div class="hero-minute d-flex justify-content-center ms-auto">
+
+                                            <p class="hero-11">4 min read</p>
+                                            <i class="icon-book bi bi-bookmark"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card mb-3">
+                                <div class="hero-card-superposicionar">
+                                    <div class="card-body d-flex justify-content-start align-items-center ">
+                                        <img class="hero-image-badge" src="./img/perfil/circle-blanco-badge.png" alt="">
+                                        <h5 class="card-title hero-3-info-hover">js
+                                            <span>para</span>ZenStack
+                                        </h5>
+                                    </div>
+                                    <div
+                                        class="card-body car-body-perfil d-flex justify-content-start align-items-center ">
+                                        <img class="hero-imagen-perfil "
+                                            src="./img/perfil/pexels-jimmy-elizarraras-5.jpg" alt="">
+                                        <h5 class="card-title">28 mayo</h5>
+                                    </div>
+
+                                </div>
+                                <div class="card-body her-3-foto-name-date">
+                                    <p class="card-text">PHP: Laravel, Ruby: Rails, JavaScript:?
+                                    </p>
+
+                                    <div class="hero-hastah">
+                                        <button type="button" class="btn btn-custom"><span
+                                                class="azul">#</span>javaScript</button>
+                                        <button type="button" class="btn btn-custom"><span class="verde">#</span>
+                                            desarrollador web</button>
+                                        <button type="button" class="btn btn-custom"><span
+                                                class="rosado">#</span>programacion</button>
+                                        <button type="button" class="btn btn-custom"><span
+                                                class="rosado">#</span>aprendiendo</button>
+                                    </div>
+                                    <div
+                                        class="hero-caras-animaciones d-flex justify-content-center align-items-center ">
+                                        <button type="button" class="btn btn-secondary btn-lg ">
+                                            <div class="d-flex justify-content-center align-items-center">
+                                                <p class="hero-emogi mb-0">&#129505;</p>
+                                                <p class="hero-emogi-2 mb-0">😍</p>
+                                                <p class="hero-emogi-2 mb-0"> &#128588;</p>
+                                                <p class="hero-emogi-2 mb-0">👽</p>
+                                                <p class="hero-emogi-2 mb-0 hero-espacio-left">🦄</p>28
+                                                reacciones
+                                            </div>
+                                        </button>
+                                        <button type="button" class="btn btn-secondary btn-lg d-flex">
+                                            <i class="bi bi-chat"></i>2 comentarios</button>
+                                        <div class="hero-minute d-flex justify-content-center ms-auto">
+
+                                            <p class="hero-11">5 min read</p>
+                                            <i class="icon-book bi bi-bookmark"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card mb-3">
+                                <div class="hero-card-superposicionar">
+                                    <div class="card-body d-flex justify-content-start align-items-center ">
+                                        <img class="hero-image-badge" src="./img/perfil/ojo-perfil.png" alt="">
+                                        <h5 class="card-title hero-3-info-hover">Necati Ozmen
+                                            <span>para</span>refinar
+                                        </h5>
+                                    </div>
+                                    <div
+                                        class="card-body car-body-perfil d-flex justify-content-start align-items-center ">
+                                        <img class="hero-imagen-perfil "
+                                            src="./img/perfil/pexels-jimmy-elizarraras-6.jpg" alt="">
+                                        <h5 class="card-title">28 mayo</h5>
+                                    </div>
+
+                                </div>
+                                <div class="card-body her-3-foto-name-date">
+                                    <p class="card-text"><img class="hero-4-card-3-necati"
+                                            src="./img/perfil/badge-chohete.avif" alt="">
+                                        Crea graficos usando Recharts
+                                    </p>
+
+                                    <div class="hero-hastah">
+                                        <button type="button" class="btn btn-custom"><span
+                                                class="azul">#</span>javaScript</button>
+                                        <button type="button" class="btn btn-custom"><span class="verde">#</span>
+                                            desarrollador web</button>
+                                        <button type="button" class="btn btn-custom"><span
+                                                class="rosado">#</span>programacion</button>
+                                        <button type="button" class="btn btn-custom"><span
+                                                class="rosado">#</span>aprendiendo</button>
+                                    </div>
+                                    <div
+                                        class="hero-caras-animaciones d-flex justify-content-center align-items-center ">
+                                        <button type="button" class="btn btn-secondary btn-lg ">
+                                            <div class="d-flex justify-content-center align-items-center">
+                                                <p class="hero-emogi mb-0">&#129505;</p>
+                                                <p class="hero-emogi-2 mb-0">😍</p>
+                                                <p class="hero-emogi-2 mb-0"> &#128588;</p>
+                                                <p class="hero-emogi-2 mb-0">👽</p>
+                                                <p class="hero-emogi-2 mb-0 hero-espacio-left">🦄</p>28
+                                                reacciones
+                                            </div>
+                                        </button>
+                                        <button type="button" class="btn btn-secondary btn-lg d-flex">
+                                            <i class="bi bi-chat"></i>2 comentarios</button>
+                                        <div class="hero-minute d-flex justify-content-center ms-auto">
+
+                                            <p class="hero-11">5 min read</p>
+                                            <i class="icon-book bi bi-bookmark"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-group">
+                                <div class="card">
+                                    <img src="./img/perfil/pexels-jimmy-elizarraras-7.jpg" class="card-img-top"
+                                        alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Josh Derocher</h5>
+                                        <p class="hero-4-card-2">ReScript ha Recorrido un largo camino, talvez es hora
+                                            de cambiar de TypeScrip?
+                                        </p>
+                                        <div class="hero-hastah">
+                                            <button type="button" class="btn btn-custom"><span
+                                                    class="azul">#</span>Kubernete</button>
+                                            <button type="button" class="btn btn-custom"><span class="verde">#</span>
+                                                devops</button>
+
+                                        </div>
+                                        <button type="button" class="btn btn-secondary btn-lg ">
+                                            <div class="d-flex justify-content-center align-items-center">
+                                                <p class="hero-emogi mb-0">&#129505;</p>
+                                                <p class="hero-emogi-2 mb-0">😍</p>
+                                                <p class="hero-emogi-2 mb-0"> &#129505;</p>
+                                                <p class="hero-emogi-2 mb-0">&#129505;</p>
+                                                <p class="hero-emogi-2 mb-0 hero-espacio-left">🦄</p>57 like
+
+                                            </div>
+                                        </button>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <img src="./img/perfil/pexels-dimitar-manolov-2.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Karina Babcock</h5>
+                                        <p class="hero-4-card-2">Cerrar la brecha entre la observabilidad y la
+                                            automatización con el razonamiento</p>
+                                        <div class="hero-hastah">
+                                            <button type="button" class="btn btn-custom"><span
+                                                    class="verde">#</span>opensource</button>
+                                            <button type="button" class="btn btn-custom"><span
+                                                    class="rosado">#</span>learning</button>
+                                        </div>
+                                        <button type="button" class="btn btn-secondary btn-lg ">
+                                            <div class="d-flex justify-content-center align-items-center">
+                                                <p class="hero-emogi mb-0">&#129505;</p>
+                                                <p class="hero-emogi-2 mb-0">😍</p>
+                                                <p class="hero-emogi-2 mb-0"> &#128588;</p>
+                                                <p class="hero-emogi-2 mb-0">👽</p>
+                                                <p class="hero-emogi-2 mb-0 hero-espacio-left">🦄</p>21 like
+
+                                            </div>
+                                        </button>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <img src="./img/perfil/pexels-thangaraj-9.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">John Pagley</h5>
+                                        <p class="hero-4-card-2">Cerrar la brecha entre la observabilidad y la
+                                            automatización con el razonamiento causal</p>
+
+                                        <div class="hero-hastah">
+                                            <button type="button" class="btn btn-custom"><span
+                                                    class="azul">#</span>Kubernete</button>
+                                            <button type="button" class="btn btn-custom"><span
+                                                    class="rosado">#</span>learning</button>
+                                        </div>
+                                        <button type="button" class="btn btn-secondary btn-lg ">
+                                            <div class="d-flex justify-content-center align-items-center">
+                                                <p class="hero-emogi mb-0">&#129505;</p>
+                                                <p class="hero-emogi-2 mb-0">😍</p>
+                                                <p class="hero-emogi-2 mb-0"> &#128588;</p>
+                                                <p class="hero-emogi-2 mb-0">👽</p>
+                                                <p class="hero-emogi-2 mb-0 hero-espacio-left">🦄</p>37 like
+
+                                            </div>
+                                        </button>
+                                        </p>
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+                            <div class="card mb-3 mt-4">
+                                <div
+                                    class="p-4 pb-0 d-flex justify-content-start align-items-center her-3-foto-name-date">
+                                    <img src="./img/perfil/pexels-jeferson-santos-4.jpg"
+                                        class="hero-3-imagen-perfil card-img-top rounded-circle m-2 "
+                                        alt="chica posandojunto a una piedra">
+                                    <div class="hero-3-info-hover d-flex flex-column gap-0">
+                                        <h6 class="hero-3-title-perfil ">Pradumma Saraf</h6>
+                                        <p class="hero-3-date-perfil">28 de mayo</p>
+                                    </div>
+                                </div>
+                                <div class="card-body her-3-foto-name-date">
+                                    <p class="card-text">Como utilizar indicadores de funciones para implementaciones
+                                        por etapas
+                                    </p>
+
+                                    <div class="hero-hastah">
+                                        <button type="button" class="btn btn-custom"><span class="azul">#</span>fuente
+                                            abierta</button>
+                                        <button type="button" class="btn btn-custom"><span class="verde">#</span>
+                                            devops</button>
+                                        <button type="button" class="btn btn-custom"><span
+                                                class="rosado">#</span>desarrollador</button>
+                                        <button type="button" class="btn btn-custom"><span
+                                                class="rosado">#</span>desarrollo</button>
+                                    </div>
+                                    <div
+                                        class="hero-caras-animaciones d-flex justify-content-center align-items-center ">
+                                        <button type="button" class="btn btn-secondary btn-lg ">
+                                            <div class="d-flex justify-content-center align-items-center">
+                                                <p class="hero-emogi mb-0">&#129505;</p>15
+                                                reaccion
+                                            </div>
+                                        </button>
+                                        <button type="button" class="btn btn-secondary btn-lg d-flex">
+                                            <i class="bi bi-chat"></i>add comentarios</button>
+                                        <div class="hero-minute d-flex justify-content-center ms-auto">
+
+                                            <p class="hero-11">4 min read</p>
+                                            <i class="icon-book bi bi-bookmark"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card mb-3">
+                                <div
+                                    class="p-4 pb-0 d-flex justify-content-start align-items-center her-3-foto-name-date">
+                                    <img src="./img/perfil/codenewbie-morado-naranja.png"
+                                        class="hero-3-imagen-perfil card-img-top rounded-circle m-2 "
+                                        alt="chica posandojunto a una piedra">
+                                    <div class="hero-3-info-hover d-flex flex-column gap-0">
+                                        <h6 class="hero-3-title-perfil ">Paolo jara</h6>
+                                        <p class="hero-3-date-perfil">28 de mayo</p>
+                                    </div>
+                                </div>
+                                <div class="card-body her-3-foto-name-date">
+                                    <p class="card-text">¡Me alegra saber que funcionó! Si tienes alguna otra pregunta o
+                                        necesitas más ayuda con CSS, Sass, Bootstrap o cualquier otra cosa, no dudes en
+                                        preguntar. ¡Estoy aquí para ayudar!
+                                    </p>
+
+                                    <div class="hero-hastah">
+                                        <button type="button" class="btn btn-custom"><span class="azul">#</span>fuente
+                                            abierta</button>
+                                        <button type="button" class="btn btn-custom"><span class="verde">#</span>
+                                            devops</button>
+                                        <button type="button" class="btn btn-custom"><span
+                                                class="rosado">#</span>desarrollador</button>
+
+                                    </div>
+                                    <div
+                                        class="hero-caras-animaciones d-flex justify-content-center align-items-center ">
+                                        <button type="button" class="btn btn-secondary btn-lg ">
+                                            <div class="d-flex justify-content-center align-items-center">
+                                                <p class="hero-emogi mb-0">&#129505;</p>15
+                                                reaccion
+                                            </div>
+                                        </button>
+                                        <button type="button" class="btn btn-secondary btn-lg d-flex">
+                                            <i class="bi bi-chat"></i>add comentarios</button>
+                                        <div class="hero-minute d-flex justify-content-center ms-auto">
+
+                                            <p class="hero-11">4 min read</p>
+                                            <i class="icon-book bi bi-bookmark"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card mb-3">
+                                <div class="hero-card-superposicionar">
+                                    <div class="card-body d-flex justify-content-start align-items-center ">
+                                        <img class="hero-image-badge" src="./img/become-a-moderatro.png" alt="">
+                                        <h5 class="card-title hero-3-info-hover">js
+                                            <span>para</span>ZenStack
+                                        </h5>
+                                    </div>
+                                    <div
+                                        class="card-body car-body-perfil d-flex justify-content-start align-items-center ">
+                                        <img class="hero-imagen-perfil "
+                                            src="./img/perfil/pexels-jimmy-elizarraras-5.jpg" alt="">
+                                        <h5 class="card-title">28 mayo</h5>
+                                    </div>
+
+                                </div>
+                                <div class="card-body her-3-foto-name-date">
+                                    <p class="card-text"> de cómo se puede ocultar una columna
+                                        específica en el modo móvil utilizando Bootstrap y media queries:
+                                    </p>
+
+                                    <div class="hero-hastah">
+                                        <button type="button" class="btn btn-custom"><span
+                                                class="azul">#</span>javaScript</button>
+                                        <button type="button" class="btn btn-custom"><span class="verde">#</span>
+                                            desarrollador web</button>
+                                        <button type="button" class="btn btn-custom"><span
+                                                class="rosado">#</span>programacion</button>
+                                        <button type="button" class="btn btn-custom"><span
+                                                class="rosado">#</span>aprendiendo</button>
+                                    </div>
+                                    <div
+                                        class="hero-caras-animaciones d-flex justify-content-center align-items-center ">
+                                        <button type="button" class="btn btn-secondary btn-lg ">
+                                        </button>
+                                        <button type="button" class="btn btn-secondary btn-lg d-flex">
+                                            <i class="bi bi-chat"></i>2 comentarios</button>
+                                        <div class="hero-minute d-flex justify-content-center ms-auto">
+
+                                            <p class="hero-11">5 min read</p>
+                                            <i class="icon-book bi bi-bookmark"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card mb-3">
+                                <div class="hero-card-superposicionar">
+                                    <div class="card-body d-flex justify-content-start align-items-center ">
+                                        <img class="hero-image-badge" src="./img/perfil/circle-blanco-badge.png" alt="">
+                                        <h5 class="card-title hero-3-info-hover">js
+                                            <span>para</span>ZenStack
+                                        </h5>
+                                    </div>
+                                    <div
+                                        class="card-body car-body-perfil d-flex justify-content-start align-items-center ">
+                                        <img class="hero-imagen-perfil "
+                                            src="./img/perfil/pexels-jimmy-elizarraras-5.jpg" alt="">
+                                        <h5 class="card-title">28 mayo</h5>
+                                    </div>
+
+                                </div>
+                                <div class="card-body her-3-foto-name-date">
+                                    <p class="card-text"> Como a revisar y corregir tus 450 líneas de código
+                                        CSS.
+                                    </p>
+
+                                    <div class="hero-hastah">
+                                        <button type="button" class="btn btn-custom"><span
+                                                class="azul">#</span>javaScript</button>
+                                        <button type="button" class="btn btn-custom"><span class="verde">#</span>
+                                            desarrollador web</button>
+                                        <button type="button" class="btn btn-custom"><span
+                                                class="rosado">#</span>programacion</button>
+                                        <button type="button" class="btn btn-custom"><span
+                                                class="rosado">#</span>aprendiendo</button>
+                                    </div>
+                                    <div
+                                        class="hero-caras-animaciones d-flex justify-content-center align-items-center ">
+                                        <button type="button" class="btn btn-secondary btn-lg ">
+                                            <div class="d-flex justify-content-center align-items-center">
+                                                <p class="hero-emogi mb-0">&#129505;</p>
+                                                <p class="hero-emogi-2 mb-0">😍</p>
+                                                <p class="hero-emogi-2 mb-0">👽</p>
+                                                <p class="hero-emogi-2 mb-0 hero-espacio-left">🦄</p>28
+                                                like
+                                            </div>
+                                        </button>
+                                        <button type="button" class="btn btn-secondary btn-lg d-flex">
+                                            <i class="bi bi-chat"></i>2 comentarios</button>
+                                        <div class="hero-minute d-flex justify-content-center ms-auto">
+
+                                            <p class="hero-11">5 min read</p>
+                                            <i class="icon-book bi bi-bookmark"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card mb-3">
+                                <div class="hero-card-superposicionar">
+                                    <div class="card-body d-flex justify-content-start align-items-center ">
+                                        <img class="hero-image-badge" src="./img/resized_logo.png" alt="">
+                                        <h5 class="card-title hero-3-info-hover">js
+                                            <span>para</span>ZenStack
+                                        </h5>
+                                    </div>
+                                    <div
+                                        class="card-body car-body-perfil d-flex justify-content-start align-items-center ">
+                                        <img class="hero-imagen-perfil "
+                                            src="./img/perfil/pexels-jimmy-elizarraras-5.jpg" alt="">
+                                        <h5 class="card-title">28 mayo</h5>
+                                    </div>
+
+                                </div>
+                                <div class="card-body her-3-foto-name-date">
+                                    <p class="card-text">PHP: Laravel, Ruby: Rails, JavaScript:?
+                                    </p>
+
+                                    <div class="hero-hastah">
+                                        <button type="button" class="btn btn-custom"><span
+                                                class="azul">#</span>javaScript</button>
+                                        <button type="button" class="btn btn-custom"><span class="verde">#</span>
+                                            desarrollador web</button>
+                                        <button type="button" class="btn btn-custom"><span
+                                                class="rosado">#</span>programacion</button>
+                                        <button type="button" class="btn btn-custom"><span
+                                                class="rosado">#</span>aprendiendo</button>
+                                    </div>
+                                    <div
+                                        class="hero-caras-animaciones d-flex justify-content-center align-items-center ">
+                                        <button type="button" class="btn btn-secondary btn-lg ">
+                                            <div class="d-flex justify-content-center align-items-center">
+                                                <p class="hero-emogi mb-0">&#129505;</p>
+                                                <p class="hero-emogi-2 mb-0">😍</p>
+                                                <p class="hero-emogi-2 mb-0">👽</p>
+                                                <p class="hero-emogi-2 mb-0 hero-espacio-left">🦄</p>28
+                                                like
+                                            </div>
+                                        </button>
+                                        <button type="button" class="btn btn-secondary btn-lg d-flex">
+                                            <i class="bi bi-chat"></i>2 comentarios</button>
+                                        <div class="hero-minute d-flex justify-content-center ms-auto">
+
+                                            <p class="hero-11">5 min read</p>
+                                            <i class="icon-book bi bi-bookmark"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <div class="col-lg-4 border-bottom d-none d-md-block">
+                            <ul class="list-group list-group-hero-2 border-0">
+                                <li class="list-group-item lista-group-item-hero-2 border-0"><span
+                                        class="list-gruop-hover fs-6">Como aumente mi productividad mientras trabajaba
+                                        en multiples proyectos</span>
+
+                                </li>
+                                <li class="list-group-item lista-group-item-hero-2 border-0 mt-3"><span
+                                        class="list-gruop-hover fs-6">10 senales de que has estado codificando
+                                        demaciado</span>
+                                </li>
+                                <li class="list-group-item lista-group-item-hero-2 border-0 mt-3"><span
+                                        class="list-gruop-hover fs-6">Curso completo de programacion RUST 2024</span>
+                                </li>
+                                <li class="list-group-item lista-group-item-hero-2 border-0 mt-3"><span
+                                        class="list-gruop-hover fs-6">VSCode en tu telefono Android</span>
+                                </li>
+                                <li class="list-group-item lista-group-item-hero-2 border-0 mt-4"><span
+                                        class="list-gruop-hover fs-6">Generador de componentes de interfaz de usuario
+                                        con tecnologia de IA (Next.js, GPT4, Langchain y CopilotKit)</span>
+                                </li>
+                                <li class="list-group-item lista-group-item-hero-2 border-0 mt-4"><span
+                                        class="list-gruop-hover fs-6">Como ejecutar Llama 3 localmente con ollama y Open
+                                        WebUI</span>
+                                </li>
+                                <li class="list-group-item lista-group-item-hero-2 border-0 mt-4"><span
+                                        class="list-gruop-hover fs-6">Lo que aprendimos construyendo nuestro Saas Rust
+                                        🦀</span>
+                                </li>
+                                <p class="font-inconsolas fw-bold mt-3">consultado recientemente</p>
+
+                                <li class="list-group-item lista-group-item-hero-2 border-0 mt-4"><span
+                                        class="list-gruop-hover fs-6">Tabla CSS
+                                    </span>
+                                </li>
+                                <li class="list-group-item lista-group-item-hero-2 border-0 mt-4"><span
+                                        class="list-gruop-hover fs-6">Bulma y Bootstrap
+                                    </span>
+                                </li>
+                                <li class="list-group-item lista-group-item-hero-2 border-0 mt-4"><span
+                                        class="list-gruop-hover fs-6">cURL y cartero
+                                    </span>
+                                </li>
+                                <li class="list-group-item lista-group-item-hero-2 border-0 mt-4"><span
+                                        class="list-gruop-hover fs-6">Tiempo de respuesta de rizo
+                                    </span>
+                                </li>
+                                <li class="list-group-item lista-group-item-hero-2 border-0 mt-4"><span
+                                        class="list-gruop-hover fs-6">Teclado windows en Mac
+                                    </span>
+                                </li>
+                                <li class="list-group-item lista-group-item-hero-2 border-0 mt-4"><span
+                                        class="list-gruop-hover fs-6">Cadena aleatoria de JavaScript
+                                    </span>
+                                </li>
+                                <li class="list-group-item lista-group-item-hero-2 border-0 mt-4"><span
+                                        class="list-gruop-hover fs-6">Declarativo vs Imperativo
+                                    </span>
+                                </li>
+                                <li class="list-group-item lista-group-item-hero-2 border-0 mt-4"><span
+                                        class="list-gruop-hover fs-6 border-bottom">Git Revertir compromiso impulsado
+                                    </span>
+                                </li>
+                                <li class="list-group-item lista-group-item-hero-2 border-0 mt-4"><span
+                                        class="list-gruop-hover fs-6">Hack de JavaScrip
+                                    </span>
+                                </li>
+                                <li class="list-group-item lista-group-item-hero-2 border-0 mt-4"><span
+                                        class="list-gruop-hover fs-6">utilizar TypeScript
+                                    </span>
+                                </li>
+                                <li class="list-group-item lista-group-item-hero-2 border-0 mt-4"><span
+                                        class="list-gruop-hover fs-6">Tutorial de matraz
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+                    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+                    crossorigin="anonymous"></script>
+
+</body>
+
+
+</html>
